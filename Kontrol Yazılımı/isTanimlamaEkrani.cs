@@ -7,7 +7,7 @@ namespace Kontrol_Yazılımı
     public partial class isTanimlamaEkrani : Form
     {
         // MySQL veritabanı bağlantı dizesi
-        private string connectionString = "Server=localhost;Database=kontrolyazılımı;User ID=root;Password=1234;";
+        private string connectionString = "Server=localhost;Database=kontrolyazılımı;User ID=root;Password=sgaftabs;";
 
         public isTanimlamaEkrani()
         {

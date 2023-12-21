@@ -40,3 +40,45 @@ C:\Users\Ayfer\source\repos\Kontrol Yazılımı\obj\Debug\net6.0-windows\Kontrol
 C:\Users\Ayfer\source\repos\Kontrol Yazılımı\obj\Debug\net6.0-windows\Kontrol_Yazılımı.AnaGiris.resources
 C:\Users\Ayfer\source\repos\Kontrol Yazılımı\obj\Debug\net6.0-windows\Kontrol_Yazılımı.Properties.Resources.resources
 C:\Users\Ayfer\source\repos\Kontrol Yazılımı\obj\Debug\net6.0-windows\Kontrol_Yazılımı.isTanimlamaEkrani.resources
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\obj\Debug\net6.0-windows\Kontrol Yazılımı.dll
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\obj\Debug\net6.0-windows\refint\Kontrol Yazılımı.dll
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\obj\Debug\net6.0-windows\Kontrol Yazılımı.pdb
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\bin\Debug\net6.0-windows\Kontrol Yazılımı.exe
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\bin\Debug\net6.0-windows\Kontrol Yazılımı.deps.json
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\bin\Debug\net6.0-windows\Kontrol Yazılımı.runtimeconfig.json
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\bin\Debug\net6.0-windows\Kontrol Yazılımı.dll
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\bin\Debug\net6.0-windows\Kontrol Yazılımı.pdb
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\bin\Debug\net6.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\bin\Debug\net6.0-windows\System.IO.Pipelines.dll
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\bin\Debug\net6.0-windows\ZstdSharp.dll
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\bin\Debug\net6.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\bin\Debug\net6.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\bin\Debug\net6.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\bin\Debug\net6.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\bin\Debug\net6.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\obj\Debug\net6.0-windows\Kontrol Yazılımı.csproj.AssemblyReference.cache
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\obj\Debug\net6.0-windows\Kontrol_Yazılımı.AnaGiris.resources
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\obj\Debug\net6.0-windows\Kontrol_Yazılımı.GirisForm.resources
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\obj\Debug\net6.0-windows\Kontrol_Yazılımı.IsArayanIsAramaForm.resources
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\obj\Debug\net6.0-windows\Kontrol_Yazılımı.IsArayanKayitForm.resources
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\obj\Debug\net6.0-windows\Kontrol_Yazılımı.isTanimlamaEkrani.resources
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\obj\Debug\net6.0-windows\Kontrol_Yazılımı.MusteriIsTanimlamaForm.resources
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\obj\Debug\net6.0-windows\Kontrol_Yazılımı.MusteriKayitForm.resources
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\obj\Debug\net6.0-windows\Kontrol_Yazılımı.Properties.Resources.resources
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\obj\Debug\net6.0-windows\Kontrol Yazılımı.csproj.GenerateResource.cache
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\obj\Debug\net6.0-windows\Kontrol Yazılımı.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\obj\Debug\net6.0-windows\Kontrol Yazılımı.AssemblyInfoInputs.cache
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\obj\Debug\net6.0-windows\Kontrol Yazılımı.AssemblyInfo.cs
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\obj\Debug\net6.0-windows\Kontrol Yazılımı.csproj.CoreCompileInputs.cache
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\obj\Debug\net6.0-windows\Kontrol Yazılımı.csproj.CopyComplete
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\obj\Debug\net6.0-windows\Kontrol Yazılımı.genruntimeconfig.cache
+C:\Users\_Monster_\Desktop\Kontrol_Yazilimi\Kontrol Yazılımı\obj\Debug\net6.0-windows\ref\Kontrol Yazılımı.dll

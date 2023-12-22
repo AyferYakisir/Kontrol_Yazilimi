@@ -16,5 +16,10 @@ namespace Kontrol_Yazılımı
         {
             InitializeComponent();
         }
+
+        private void isAramaCB2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

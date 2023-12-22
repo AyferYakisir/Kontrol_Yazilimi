@@ -10,8 +10,9 @@
 
 namespace Kontrol_Yazılımı.Properties {
     using System;
-    
-    
+    using System.Drawing;
+
+
     /// <summary>
     ///   Yerelleştirilmiş dizeleri aramak gibi işlemler için, türü kesin olarak belirtilmiş kaynak sınıfı.
     /// </summary>
@@ -78,6 +79,21 @@ namespace Kontrol_Yazılımı.Properties {
                 object obj = ResourceManager.GetObject("isEkleme", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap isSilme {
+            get {
+                object obj = ResourceManager.GetObject("isSilme", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static Image GetObject(string v)
+        {
+            throw new NotImplementedException();
         }
     }
 }

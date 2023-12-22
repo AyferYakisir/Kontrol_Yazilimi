@@ -7,12 +7,13 @@ namespace Kontrol_Yazılımı
     public partial class isTanimlamaEkrani : Form
     {
         // MySQL veritabanı bağlantı dizesi
-        private string connectionString = "Server=localhost;Database=kontrolyazılımı;User ID=root;Password=sgaftabs;";
+        private string connectionString = "Server=localhost;Database=kontrolyazılımı;User ID=root;Password=1234;";
 
         public isTanimlamaEkrani()
         {
             InitializeComponent();
         }
+        // Property'ler
 
         private void pTanimlaBT_Click(object sender, EventArgs e)
         {
@@ -32,7 +33,7 @@ namespace Kontrol_Yazılımı
                 {
                     connection.Open();
 
-                    string sql = "INSERT INTO projeler (baslik, butce, aciklama, tarih) VALUES (@baslik, @butce, @aciklama, @tarih)";
+                    string sql = "INSERT INTO projeler (baslik, butce, aciklama, tarih,proje_tipi) VALUES (@baslik, @butce, @aciklama, @tarih,@proje_tipi)";
                     using (MySqlCommand cmd = new MySqlCommand(sql, connection))
                     {
                         cmd.Parameters.AddWithValue("@baslik", pBaslikTB.Text);
@@ -50,6 +51,8 @@ namespace Kontrol_Yazılımı
                 MessageBox.Show("Proje tanımlama sırasında bir hata oluştu: " + ex.Message, "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             this.Close();
+            
+            
         }
 
     }

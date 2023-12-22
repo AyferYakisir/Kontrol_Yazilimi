@@ -10,7 +10,7 @@ namespace Kontrol_Yazılımı
         private string userType;
 
         // MySQL veritabanı bağlantı dizesi
-        private string connectionString = "Server=localhost;Database=kontrolyazılımı;User ID=root;Password=sgaftabs";
+        private string connectionString = "Server=localhost;Database=kontrolyazılımı;User ID=root;Password=1234";
 
         public MusteriKayitForm(string userType)
         {

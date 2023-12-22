@@ -4,17 +4,24 @@ using MySql.Data.MySqlClient;
 
 namespace Kontrol_Yazılımı
 {
+    public class ProjeBilgisi
+    {
+        public string Baslik { get; set; }
+        public string Butce { get; set; }
+        public string Aciklama { get; set; }
+        public DateTime Tarih { get; set; }
+    }
     public partial class isTanimlamaEkrani : Form
     {
+        private ProjeBilgisi projeBilgisi;
         // MySQL veritabanı bağlantı dizesi
         private string connectionString = "Server=localhost;Database=kontrolyazılımı;User ID=root;Password=1234;";
 
         public isTanimlamaEkrani()
         {
             InitializeComponent();
+            projeBilgisi = new ProjeBilgisi();
         }
-        // Property'ler
-
         private void pTanimlaBT_Click(object sender, EventArgs e)
         {
             // TextBox'ların boş olup olmadığını kontrol et
@@ -33,7 +40,7 @@ namespace Kontrol_Yazılımı
                 {
                     connection.Open();
 
-                    string sql = "INSERT INTO projeler (baslik, butce, aciklama, tarih,proje_tipi) VALUES (@baslik, @butce, @aciklama, @tarih,@proje_tipi)";
+                    string sql = "INSERT INTO projeler (baslik, butce, aciklama, tarih) VALUES (@baslik, @butce, @aciklama, @tarih)";
                     using (MySqlCommand cmd = new MySqlCommand(sql, connection))
                     {
                         cmd.Parameters.AddWithValue("@baslik", pBaslikTB.Text);
@@ -50,9 +57,15 @@ namespace Kontrol_Yazılımı
             {
                 MessageBox.Show("Proje tanımlama sırasında bir hata oluştu: " + ex.Message, "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            this.Close();
-            
-            
+            // Proje bilgilerini kaydet
+            projeBilgisi.Baslik = pBaslikTB.Text;
+            projeBilgisi.Butce = pButceTB.Text;
+            projeBilgisi.Aciklama = pAciklamaRB.Text;
+            projeBilgisi.Tarih = pTarihDTP.Value;
+
+            // Olayı tetikle
+            this.Hide();
+
         }
 
     }

@@ -99,7 +99,7 @@ namespace Kontrol_Yazılımı
 
         private void igeriPB_Click(object sender, EventArgs e)
         {
-            // Giriş sayfasına yönlendirme
+           // Giriş sayfasına yönlendirme
             AnaGiris form1 = new AnaGiris();
             form1.Show();
             this.Close();

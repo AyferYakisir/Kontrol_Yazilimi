@@ -109,7 +109,6 @@ C:\Users\Ayfer\OneDrive\Belgeler\GitHub\KontrolYazilimi\Kontrol Yazılımı\obj\
 C:\Users\Ayfer\OneDrive\Belgeler\GitHub\KontrolYazilimi\Kontrol Yazılımı\obj\Debug\net6.0-windows\Kontrol_Yazılımı.GirisForm.resources
 C:\Users\Ayfer\OneDrive\Belgeler\GitHub\KontrolYazilimi\Kontrol Yazılımı\obj\Debug\net6.0-windows\Kontrol_Yazılımı.IsArayanIsAramaForm.resources
 C:\Users\Ayfer\OneDrive\Belgeler\GitHub\KontrolYazilimi\Kontrol Yazılımı\obj\Debug\net6.0-windows\Kontrol_Yazılımı.IsArayanKayitForm.resources
-C:\Users\Ayfer\OneDrive\Belgeler\GitHub\KontrolYazilimi\Kontrol Yazılımı\obj\Debug\net6.0-windows\Kontrol_Yazılımı.isTanimlamaEkrani.resources
 C:\Users\Ayfer\OneDrive\Belgeler\GitHub\KontrolYazilimi\Kontrol Yazılımı\obj\Debug\net6.0-windows\Kontrol_Yazılımı.MusteriIsTanimlamaForm.resources
 C:\Users\Ayfer\OneDrive\Belgeler\GitHub\KontrolYazilimi\Kontrol Yazılımı\obj\Debug\net6.0-windows\Kontrol_Yazılımı.MusteriKayitForm.resources
 C:\Users\Ayfer\OneDrive\Belgeler\GitHub\KontrolYazilimi\Kontrol Yazılımı\obj\Debug\net6.0-windows\Kontrol_Yazılımı.Properties.Resources.resources
@@ -125,3 +124,4 @@ C:\Users\Ayfer\OneDrive\Belgeler\GitHub\KontrolYazilimi\Kontrol Yazılımı\obj\
 C:\Users\Ayfer\OneDrive\Belgeler\GitHub\KontrolYazilimi\Kontrol Yazılımı\obj\Debug\net6.0-windows\Kontrol Yazılımı.pdb
 C:\Users\Ayfer\OneDrive\Belgeler\GitHub\KontrolYazilimi\Kontrol Yazılımı\obj\Debug\net6.0-windows\Kontrol Yazılımı.genruntimeconfig.cache
 C:\Users\Ayfer\OneDrive\Belgeler\GitHub\KontrolYazilimi\Kontrol Yazılımı\obj\Debug\net6.0-windows\ref\Kontrol Yazılımı.dll
+C:\Users\Ayfer\OneDrive\Belgeler\GitHub\KontrolYazilimi\Kontrol Yazılımı\obj\Debug\net6.0-windows\Kontrol_Yazılımı.ProjeBilgisi.resources

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kontrol Yazılımı")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+347da44248364565fd1696d24750fc00036fc019")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1997d45c032cc37fa7f5e97c27e039fdc4a7f612")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kontrol Yazılımı")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kontrol Yazılımı")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

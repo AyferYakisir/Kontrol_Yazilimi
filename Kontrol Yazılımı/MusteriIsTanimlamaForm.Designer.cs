@@ -98,7 +98,6 @@
             GB1.Size = new Size(617, 129);
             GB1.TabIndex = 3;
             GB1.TabStop = false;
-            GB1.Enter += GB1_Enter;
             // 
             // tarihTB1
             // 
@@ -107,7 +106,6 @@
             tarihTB1.Name = "tarihTB1";
             tarihTB1.Size = new Size(155, 27);
             tarihTB1.TabIndex = 10;
-            tarihTB1.TextChanged += tarihTB1_TextChanged;
             // 
             // butceTB1
             // 
@@ -116,7 +114,6 @@
             butceTB1.Name = "butceTB1";
             butceTB1.Size = new Size(155, 27);
             butceTB1.TabIndex = 9;
-            butceTB1.TextChanged += butceTB1_TextChanged;
             // 
             // aciklamaRB1
             // 
@@ -127,7 +124,6 @@
             aciklamaRB1.Size = new Size(185, 92);
             aciklamaRB1.TabIndex = 8;
             aciklamaRB1.Text = "";
-            aciklamaRB1.TextChanged += aciklamaRB1_TextChanged;
             // 
             // baslikTB1
             // 
@@ -137,7 +133,6 @@
             baslikTB1.ReadOnly = true;
             baslikTB1.Size = new Size(155, 27);
             baslikTB1.TabIndex = 5;
-            baslikTB1.TextChanged += baslikTB1_TextChanged;
             // 
             // aciklamaLB
             // 
@@ -188,7 +183,6 @@
             PB1.SizeMode = PictureBoxSizeMode.Zoom;
             PB1.TabIndex = 0;
             PB1.TabStop = false;
-            PB1.Click += PB1_Click;
             // 
             // vScrollBar1
             // 
@@ -213,7 +207,6 @@
             GB2.Size = new Size(617, 129);
             GB2.TabIndex = 7;
             GB2.TabStop = false;
-            GB2.Enter += GB2_Enter;
             // 
             // PB2
             // 
@@ -315,7 +308,6 @@
             GB3.Size = new Size(617, 129);
             GB3.TabIndex = 8;
             GB3.TabStop = false;
-            GB3.Enter += GB3_Enter;
             // 
             // PB3
             // 
@@ -405,7 +397,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 514);
+            ClientSize = new Size(832, 514);
             Controls.Add(GB3);
             Controls.Add(GB2);
             Controls.Add(vScrollBar1);

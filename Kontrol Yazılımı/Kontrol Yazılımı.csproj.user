@@ -7,16 +7,19 @@
     <Compile Update="GirisForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="IsArayanIsAramaForm.cs">
+    <Compile Update="IsArayanEkrani.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="IsArayanKayitForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="MusteriIsTanimlamaForm.cs">
+    <Compile Update="isTanimlamaEkrani.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="MusteriKayitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MusteriİsTanimlamaEkrani.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

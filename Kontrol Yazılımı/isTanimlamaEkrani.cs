@@ -4,27 +4,21 @@ using MySql.Data.MySqlClient;
 
 namespace Kontrol_Yazılımı
 {
-    public class ProjeBilgisi
-    {
-        public string Baslik { get; set; }
-        public string Butce { get; set; }
-        public string Aciklama { get; set; }
-        public DateTime Tarih { get; set; }
-    }
     public partial class isTanimlamaEkrani : Form
     {
-        private ProjeBilgisi projeBilgisi;
-        // MySQL veritabanı bağlantı dizesi
         private string connectionString = "Server=localhost;Database=kontrolyazılımı;User ID=root;Password=1234;";
+
+        // Proje eklendiğinde tetiklenecek olay (event)
+        public event EventHandler ProjeEklendi;
 
         public isTanimlamaEkrani()
         {
             InitializeComponent();
-            projeBilgisi = new ProjeBilgisi();
+            pButceTB.KeyPress += pButceTB_KeyPress;
         }
+
         private void pTanimlaBT_Click(object sender, EventArgs e)
         {
-            // TextBox'ların boş olup olmadığını kontrol et
             if (string.IsNullOrWhiteSpace(pBaslikTB.Text) ||
                 string.IsNullOrWhiteSpace(pButceTB.Text) ||
                 string.IsNullOrWhiteSpace(pAciklamaRB.Text))
@@ -33,7 +27,6 @@ namespace Kontrol_Yazılımı
                 return;
             }
 
-            // Veritabanına proje ekleme işlemi
             try
             {
                 using (MySqlConnection connection = new MySqlConnection(connectionString))
@@ -50,6 +43,9 @@ namespace Kontrol_Yazılımı
 
                         cmd.ExecuteNonQuery();
                         MessageBox.Show("Proje başarıyla tanımlandı.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                        // Proje eklendiğinde olayı tetikle
+                        OnProjeEklendi(EventArgs.Empty);
                     }
                 }
             }
@@ -57,16 +53,23 @@ namespace Kontrol_Yazılımı
             {
                 MessageBox.Show("Proje tanımlama sırasında bir hata oluştu: " + ex.Message, "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            // Proje bilgilerini kaydet
-            projeBilgisi.Baslik = pBaslikTB.Text;
-            projeBilgisi.Butce = pButceTB.Text;
-            projeBilgisi.Aciklama = pAciklamaRB.Text;
-            projeBilgisi.Tarih = pTarihDTP.Value;
 
-            // Olayı tetikle
-            this.Hide();
-
+            this.Close();
         }
-
-    }
-}
+        protected virtual void OnProjeEklendi(EventArgs e)
+        {
+            // Olayı tetikleme metodunun içeriği burada
+            ProjeEklendi?.Invoke(this, e);
+        }
+        private void pButceTB_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            // Kullanıcının girdiği karakterin sayı olup olmadığını kontrol et
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                // Sayı değilse, karakteri işleme alma, olayı iptal et ve uyarı göster
+                e.Handled = true;
+                MessageBox.Show("Bütçe değeri sadece sayı olarak girilmelidir.", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+        }
+ }

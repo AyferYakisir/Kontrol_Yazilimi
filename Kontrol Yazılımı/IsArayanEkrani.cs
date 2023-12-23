@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Kontrol_Yazılımı
 {
-    public partial class IsArayanIsAramaForm : Form
+    public partial class IsArayanEkrani : Form
     {
-        public IsArayanIsAramaForm()
+        public IsArayanEkrani()
         {
             InitializeComponent();
-        }
-
-        private void isAramaCB2_CheckedChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

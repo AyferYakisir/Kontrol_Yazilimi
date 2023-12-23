@@ -44,12 +44,12 @@ namespace Kontrol_Yazılımı
                                 string userType = reader["kullanici_tipi"].ToString();
                                 if (userType == "Musteri")
                                 {
-                                    MusteriIsTanimlamaForm musteriAnaForm = new MusteriIsTanimlamaForm();
+                                    MusteriİsTanimlamaEkrani musteriAnaForm = new MusteriİsTanimlamaEkrani();
                                     musteriAnaForm.Show();
                                 }
                                 else if (userType == "IsArayan")
                                 {
-                                    IsArayanIsAramaForm isArayanAnaForm = new IsArayanIsAramaForm();
+                                    IsAramaForm isArayanAnaForm = new IsAramaForm();
                                     isArayanAnaForm.Show();
                                 }
 

@@ -1,0 +1,9 @@
+Hata Zamanı: 23.12.2023 17:52:59
+Hata Mesajı: Cannot add or update a child row: a foreign key constraint fails (`kontrolyazılımı`.`basvurular`, CONSTRAINT `basvurular_ibfk_1` FOREIGN KEY (`is_arayan_id`) REFERENCES `kullanicilar` (`kullanici_id`))
+
+Hata Zamanı: 23.12.2023 17:53:34
+Hata Mesajı: Cannot add or update a child row: a foreign key constraint fails (`kontrolyazılımı`.`basvurular`, CONSTRAINT `basvurular_ibfk_1` FOREIGN KEY (`is_arayan_id`) REFERENCES `kullanicilar` (`kullanici_id`))
+
+Hata Zamanı: 23.12.2023 17:56:45
+Hata Mesajı: Cannot add or update a child row: a foreign key constraint fails (`kontrolyazılımı`.`basvurular`, CONSTRAINT `basvurular_ibfk_1` FOREIGN KEY (`is_arayan_id`) REFERENCES `kullanicilar` (`kullanici_id`))
+
